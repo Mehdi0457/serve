@@ -32,7 +32,7 @@ var table = require('table').table
 var ti={}  
 ,spee={}
 ,attentions={};
-client.on('error', console.error);
+client.on("error", o_O => console.log(o_O));
 
 client.on('ready', function(){
     var ms = 60000 ;
